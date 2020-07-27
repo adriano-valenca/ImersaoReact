@@ -74,84 +74,98 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Músicas",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Slayer",
+          "url": "https://www.youtube.com/watch?v=2zhi3FmTUFg&list=RDEMa1oUHiq1BnK5e3SR7d8ang&start_radio=1"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Deep Purple",
+          "url": "https://www.youtube.com/watch?v=PfAWReBmxEs&list=PL8AE8918702E98943"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "L'arc~en~Ciel",
+          "url": "https://www.youtube.com/watch?v=G9yOkP1cNRY&list=PLUsP-war7Md5UzH1zSnEpANrImi-MWcA9"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Orange Range",
+          "url": "https://www.youtube.com/watch?v=PXN-cJtgmsU&list=OLAK5uy_kn5T2cwzPVrqi435xyxjSzrpW5SAfpuHE"
+        },
+        {
+          "titulo": "Rammstein",
+          "url": "https://www.youtube.com/watch?v=StZcUAPRRac&list=PLVTLbc6i-h_gfknsAbSB3l_Q6NmtQ9_c9"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Destiny 2 - Lore",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Entendendo a linha do tempo e a história do jogo (parte 1)",
+          "url": "https://www.youtube.com/watch?v=Qlbrnt_PkMM&list=PLELA5H0ZT6e6KxnO8oTRSU2niTVXVYl6o&index=2"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Entendendo a linha do tempo e a história do jogo (parte 2)",
+          "url": "https://www.youtube.com/watch?v=gT55tM57-MA&list=PLELA5H0ZT6e6KxnO8oTRSU2niTVXVYl6o&index=1"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Desvelamento - A Bíblia pela Treva",
+          "url": "https://www.youtube.com/watch?v=dDXDr6otiH4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=1"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Os segredos e previsões de A Crônica, o 'Registro Histórico' do Imperador Calus",
+          "url": "https://www.youtube.com/watch?v=bxRluflDxAE&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=2"
+        },
+        {
+          "titulo": "Sjur Eido, o Destruidor de Desejos e a origem dos Despertos",
+          "url": "https://www.youtube.com/watch?v=khvzz47vSXs&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=3"
+        },
+        {
+          "titulo": "Conheça a história do Imperador Calus",
+          "url": "https://www.youtube.com/watch?v=Isr-MSouLA4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=4"
+        },
+        {
+          "titulo": "Conheça a história de Cayde-6",
+          "url": "https://www.youtube.com/watch?v=oS58c3_lHH4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=5"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Destiny 2 - Guias",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+      
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Localização dos 45 fragmentos de dados",
+          "url": "https://www.youtube.com/watch?v=PfSDHdslGcQ&list=WL&index=7"
         },
         {
-          "titulo": "Destiny 2",
-          "url": "style=https://www.youtube.com/watch?v=thO-QDEIjzU&list=WL&index=14&t=210s"
+          "titulo": "Todos os nódulos de Dormência",
+          "url": "https://www.youtube.com/watch?v=thO-QDEIjzU&list=WL&index=14&t=210s"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Como pegar a sniper exótica Fardo de Izanagi",
+          "url": "https://www.youtube.com/watch?v=aLdkOcitrF4&list=WL&index=14"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Como pegar a Má Conduta",
+          "url": "https://www.youtube.com/watch?v=72QCn3n96Os&t=561s"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Como pegar a Espinho",
+          "url": "https://www.youtube.com/watch?v=kXC__3zbBDA"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Como pegar a Ás de Espadas",
+          "url": "https://www.youtube.com/watch?v=tcTATA5gU_s&t=29s"
+        },
+        {
+          "titulo": "Como pegar a Última Palavra",
+          "url": "https://www.youtube.com/watch?v=2vbA5uMpZTs&t=478s"
         }
       ]
     },
