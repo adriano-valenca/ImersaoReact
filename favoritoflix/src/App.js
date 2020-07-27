@@ -14,7 +14,7 @@ function App() {
       <BannerMain 
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"Os Guardiões empunharão esse poder elementar, oriundo da Treva, junto com Arco, Solar e Vácuo para utilizar super habilidades épicas e dominar o campo de batalha. Titãs, Arcanos e Caçadores usam a Estase cada um à sua maneira, da desaceleração dos inimigos com campos de estase ao estilhaçar de inimigos aprisionados com poder destrutivo."}
       />
 
       <Carousel 
@@ -36,10 +36,6 @@ function App() {
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
       />
 
       <Footer/>
