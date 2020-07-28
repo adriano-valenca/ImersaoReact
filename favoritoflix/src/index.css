@@ -12,6 +12,7 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
+  background: rgb(20, 20, 20);
 }
 
 html,
@@ -24,6 +25,8 @@ a {
   color: inherit;
 }
 
-.style {
-  background: rgb(20, 20, 20);
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
