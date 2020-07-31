@@ -51,7 +51,7 @@ const Input = styled.input`
     border-radius: 4px;
     transition: border-color .3s;
 
-    &: focus {
+    &:focus {
         border-bottom-color: var(--primary);
     }
 
@@ -100,6 +100,7 @@ function FormField({
           hasSugggestions && (
           <datalist id={`suggestionsFor_${fieldId}`}>
             {
+            // eslint-disable-next-line no-shadow
             suggestions.map((suggestions) => (
               <option value={suggestions} key={`suggestionsFor_${fieldId}_option${suggestions}`}>
                 {suggestions}

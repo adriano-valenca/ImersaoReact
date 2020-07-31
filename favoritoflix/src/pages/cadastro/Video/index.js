@@ -36,6 +36,7 @@ function CadastroVideo() {
           return categoria.titulo === values.categoria;
         });
 
+        // eslint-disable-next-line no-console
         console.log('categoriaEscolhida', categoriaEscolhida);
 
         videosRepository.create({
@@ -44,6 +45,7 @@ function CadastroVideo() {
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
+            // eslint-disable-next-line no-console
             console.log('Cadastrou com sucesso!');
             history.push('/');
           });
