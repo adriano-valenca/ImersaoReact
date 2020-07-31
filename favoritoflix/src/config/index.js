@@ -1,6 +1,6 @@
 const URL_BACKEND_TOP = window.location.hostname.includes('localhost')
   ? 'http://localhost:8080'
-  : 'https://favoritoflix.herokuapp.com/';
+  : 'https://favoritoflix.herokuapp.com';
 
 export default {
   URL_BACKEND_TOP,
