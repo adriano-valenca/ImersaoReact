@@ -1,16 +1,275 @@
 {
-    "categorias": [
-       { 
-        "id": 1,
-        "nome": "Games",
-        "descricao": "jogos que gosto",
-        "cor": "#6BD1ff"
-        },
-        { 
-            "id": 2,
-            "nome": "Músicas",
-            "descricao": "Bandas que gosto",
-            "cor": "#9CD33B"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Games",
+      "cor": "#6BD1ff"
+    },
+    {
+      "id": 2,
+      "titulo": "Músicas",
+      "cor": "#9CD33B"
+    },
+    {
+      "id": 3,
+      "titulo": "Destiny 2 - Lore",
+      "cor": "#FFA500"
+    },
+    {
+      "id": 4,
+      "titulo": "Destiny 2 - Guias",
+      "cor": "#FFA500"
+    },
+    {
+      "id": 5,
+      "titulo": "Estudos sobre tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Destiny 2",
+      "url": "https://www.youtube.com/watch?v=J08_3Gtkjk4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "World of Warcraft",
+      "url": "https://www.youtube.com/watch?v=qtDfA8gU9ik"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Monster Hunter World",
+      "url": "https://www.youtube.com/watch?v=GtThCk6qu3Y"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Legend of Zelda: Breath of the Wild",
+      "url": "https://www.youtube.com/watch?v=3fr1Z07AV00"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Final Fantasy 7 - Remake",
+      "url": "https://www.youtube.com/watch?v=xOA5GwRcBks"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Nioh 2",
+      "url": "https://www.youtube.com/watch?v=QccheiQ7c34"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "The Last of Us - Part II",
+      "url": "https://www.youtube.com/watch?v=TXl9GI1p_Os&list=RDCMUC-2Y8dQb0S6DtpxNgAKoJKA&start_radio=1&t=13"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Slayer",
+      "url": "https://www.youtube.com/watch?v=2zhi3FmTUFg&list=RDEMa1oUHiq1BnK5e3SR7d8ang&start_radio=1"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Deep Purple",
+      "url": "https://www.youtube.com/watch?v=PfAWReBmxEs&list=PL8AE8918702E98943"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "L'arc~en~Ciel",
+      "url": "https://www.youtube.com/watch?v=G9yOkP1cNRY&list=PLUsP-war7Md5UzH1zSnEpANrImi-MWcA9"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Orange Range",
+      "url": "https://www.youtube.com/watch?v=PXN-cJtgmsU&list=OLAK5uy_kn5T2cwzPVrqi435xyxjSzrpW5SAfpuHE"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Rammstein",
+      "url": "https://www.youtube.com/watch?v=StZcUAPRRac&list=PLVTLbc6i-h_gfknsAbSB3l_Q6NmtQ9_c9"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Dropkick Murphys - Johnny I hardly knew ya",
+      "url": "https://www.youtube.com/watch?v=Yg_rf2d894k"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Rhapsody - Symphony of Enchanted Lands",
+      "url": "https://www.youtube.com/watch?v=kRK7jjKwJns&list=PLJEeRDQgvpCj4-YhWqQhenYBu0Yg1PjTt"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Entendendo a linha do tempo e a história do jogo (parte 1)",
+      "url": "https://www.youtube.com/watch?v=Qlbrnt_PkMM&list=PLELA5H0ZT6e6KxnO8oTRSU2niTVXVYl6o&index=2"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Entendendo a linha do tempo e a história do jogo (parte 2)",
+      "url": "https://www.youtube.com/watch?v=gT55tM57-MA&list=PLELA5H0ZT6e6KxnO8oTRSU2niTVXVYl6o&index=1"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Desvelamento - A Bíblia pela Treva",
+      "url": "https://www.youtube.com/watch?v=dDXDr6otiH4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=1"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Os segredos e previsões de A Crônica, o 'Registro Histórico' do Imperador Calus",
+      "url": "https://www.youtube.com/watch?v=bxRluflDxAE&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=2"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Sjur Eido, o Destruidor de Desejos e a origem dos Despertos",
+      "url": "https://www.youtube.com/watch?v=khvzz47vSXs&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=3"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Conheça a história do Imperador Calus",
+      "url": "https://www.youtube.com/watch?v=Isr-MSouLA4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=4"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Conheça a história de Cayde-6",
+      "url": "https://www.youtube.com/watch?v=oS58c3_lHH4&list=PLELA5H0ZT6e4k1JEBZYTMrMNRKyJTPywO&index=5"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Localização dos 45 fragmentos de dados",
+      "url": "https://www.youtube.com/watch?v=PfSDHdslGcQ&list=WL&index=7"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Todos os nódulos de Dormência",
+      "url": "https://www.youtube.com/watch?v=thO-QDEIjzU&list=WL&index=14&t=210s"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Como pegar a sniper exótica Fardo de Izanagi",
+      "url": "https://www.youtube.com/watch?v=aLdkOcitrF4&list=WL&index=14"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Como pegar a Má Conduta",
+      "url": "https://www.youtube.com/watch?v=72QCn3n96Os&t=561s"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Como pegar a Espinho",
+      "url": "https://www.youtube.com/watch?v=kXC__3zbBDA"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "Como pegar a Ás de Espadas",
+      "url": "https://www.youtube.com/watch?v=tcTATA5gU_s&t=29s"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "Como pegar a Última Palavra",
+      "url": "https://www.youtube.com/watch?v=2vbA5uMpZTs&t=478s"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "O que faz uma desenvolvedora front-end?",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw&feature=emb_title"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Componentização com VanillaJS",
+      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "Faculdade",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 35,
+      "categoriaId": 5,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=J08_3Gtkjk4&feature=emb_logo",
+      "categoria": 1,
+      "id": 36
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=J08_3Gtkjk4&feature=emb_logo",
+      "categoria": 1,
+      "id": 37
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=JzS96auqau0",
+      "categoria": 1,
+      "id": 38
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=JzS96auqau0",
+      "categoria": 1,
+      "id": 39
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=JzS96auqau0",
+      "categoriaId": 1,
+      "id": 40
+    }
+  ]
 }

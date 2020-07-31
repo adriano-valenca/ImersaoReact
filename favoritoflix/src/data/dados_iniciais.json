@@ -72,7 +72,7 @@
     },
     {
       "titulo": "Destiny 2 - Lore",
-      "cor": "orange",
+      "cor": "#FFA500",
       "videos": [
         {
           "titulo": "Entendendo a linha do tempo e a história do jogo (parte 1)",
@@ -106,7 +106,7 @@
     },
     {
       "titulo": "Destiny 2 - Guias",
-      "cor": "red",
+      "cor": "#FF0000",
       
       "videos": [
         {
